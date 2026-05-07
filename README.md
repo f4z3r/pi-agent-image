@@ -34,9 +34,14 @@ docker run --rm \
   -v ~/.pi:/home/f4z3r/.pi \
   -v ~/notes/resources/ai/:/home/f4z3r/notes/resources/ai \
   -v .:/home/f4z3r/workspace \
-  pi:test \
+  ghcr.io/f4z3r/pi-agent-image:v0.1.0-rc0 \
   pi
 ```
 
 ## How to Build
 
+Images are released to the GitHub container registry. If want to build it locally nonetheless:
+
+```bash
+docker build -t pi-agent-image:test .
+```
