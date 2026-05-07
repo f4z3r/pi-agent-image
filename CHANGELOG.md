@@ -9,6 +9,9 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### <!-- 7 -->Miscellaneous Tasks
 - Automatically generate changelogs by @f4z3r
 
+### New Contributors
+* @github-actions[bot] made their first contribution
+
 ## [0.1.0-rc0] - 2026-05-07
 
 ### <!-- 0 -->Features
