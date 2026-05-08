@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### <!-- 7 -->Miscellaneous Tasks
+- "pin" versions for npm and cargo installs by @f4z3r
+
 ## [0.1.0] - 2026-05-08
 
 ### <!-- 0 -->Features
@@ -30,6 +35,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### New Contributors
 * @f4z3r made their first contribution
 
+[unreleased]: https://github.com/f4z3r/pi-agent-image
 [0.1.0]: https://github.com/f4z3r/pi-agent-image/compare/v0.1.0-rc0...v0.1.0
 [0.1.0-rc0]: https://github.com/f4z3r/pi-agent-image/tree/v0.1.0-rc0
 
