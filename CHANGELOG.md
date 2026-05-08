@@ -6,6 +6,9 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
+### <!-- 0 -->Features
+- Add nvim basic configuration for easier prompting in editor by @f4z3r
+
 ### <!-- 3 -->Documentation
 - Update image reference in usage information by @f4z3r
 
