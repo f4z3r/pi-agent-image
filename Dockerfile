@@ -10,7 +10,7 @@ RUN pacman --noconfirm -Suy nodejs-lts-krypton npm \
       stylua \
       prettier \
       neovim \
-    && npm install -g @earendil-works/pi-coding-agent @wcj/html-to-markdown \
+    && npm install -g @earendil-works/pi-coding-agent@0.74.0 @wcj/html-to-markdown@2.1.1 \
     && groupadd -g 100 f4z3r \
     && useradd -u 1000 -g 100 -m f4z3r;
 
@@ -18,7 +18,7 @@ USER 1000
 
 ENV EDITOR="nvim"
 
-RUN cargo install cbfmt;
+RUN cargo install cbfmt@0.2.0;
 
 # Split from cargo install to re-use layer cache
 RUN mkdir -p /home/f4z3r/workspace/ \
