@@ -20,6 +20,10 @@ ENV EDITOR="nvim"
 
 RUN cargo install cbfmt;
 
-RUN mkdir -p /home/f4z3r/workspace/;
+# Split from cargo install to re-use layer cache
+RUN mkdir -p /home/f4z3r/workspace/ \
+    && mkdir -p /home/f4z3r/.config/nvim/;
+
+COPY --chown=f4z3r:f4z3r ./assets/init.lua /home/f4z3r/.config/nvim/init.lua
 
 WORKDIR /home/f4z3r/workspace
