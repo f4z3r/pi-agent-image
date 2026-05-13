@@ -11,6 +11,10 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### <!-- 7 -->Miscellaneous Tasks
 - "pin" versions for npm and cargo installs by @f4z3r
+- Add renovate.json by @renovate[bot] in [#1](https://github.com/f4z3r/pi-agent-image/pull/1)
+
+### New Contributors
+* @renovate[bot] made their first contribution in [#1](https://github.com/f4z3r/pi-agent-image/pull/1)
 
 ## [0.1.0] - 2026-05-08
 
