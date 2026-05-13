@@ -14,7 +14,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Add renovate.json by @renovate[bot] in [#1](https://github.com/f4z3r/pi-agent-image/pull/1)
 
 ### New Contributors
-* @renovate[bot] made their first contribution in [#2](https://github.com/f4z3r/pi-agent-image/pull/2)
+* @renovate[bot] made their first contribution in [#3](https://github.com/f4z3r/pi-agent-image/pull/3)
 
 ## [0.1.0] - 2026-05-08
 
