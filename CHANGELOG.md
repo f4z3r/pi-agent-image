@@ -6,6 +6,9 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
+### <!-- 0 -->Features
+- Allow internal user within container to run pacman by @f4z3r
+
 ### <!-- 7 -->Miscellaneous Tasks
 - "pin" versions for npm and cargo installs by @f4z3r
 
