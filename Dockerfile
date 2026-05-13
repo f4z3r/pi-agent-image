@@ -1,6 +1,7 @@
 FROM archlinux:base-20260419.0.517065
 
 RUN pacman --noconfirm -Suy nodejs-lts-krypton npm \
+      sudo \
       ripgrep fd \
       git \
       luajit \
@@ -12,7 +13,10 @@ RUN pacman --noconfirm -Suy nodejs-lts-krypton npm \
       neovim \
     && npm install -g @earendil-works/pi-coding-agent@0.74.0 @wcj/html-to-markdown@2.1.1 \
     && groupadd -g 100 f4z3r \
-    && useradd -u 1000 -g 100 -m f4z3r;
+    && useradd -u 1000 -g 100 -m f4z3r \
+    && usermod -aG wheel f4z3r \
+    && echo "f4z3r ALL=(ALL) NOPASSWD: /usr/bin/pacman" >> /etc/sudoers.d/f4z3r \
+    && echo "%wheel ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers.d/wheel;
 
 USER 1000
 

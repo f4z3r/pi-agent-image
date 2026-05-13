@@ -34,7 +34,7 @@ docker run --rm \
   -v ~/.pi:/home/f4z3r/.pi \
   -v ~/notes/resources/ai/:/home/f4z3r/notes/resources/ai \
   -v .:/home/f4z3r/workspace \
-  ghcr.io/f4z3r/pi-agent-image:v0.1.0-rc0 \
+  ghcr.io/f4z3r/pi-agent-image:v0.2.0 \
   pi
 ```
 
