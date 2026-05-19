@@ -8,6 +8,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### <!-- 0 -->Features
 - Update pi-coding-agent to version 0.75.3 by @f4z3r
+- Update archlinux base image to 20260517 by @f4z3r
 
 ## [0.2.0] - 2026-05-13
 
