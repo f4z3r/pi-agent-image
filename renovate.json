@@ -1,7 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:best-practices",
-    "group:allNonMajor"
+  "extends": ["config:best-practices", "group:allNonMajor"],
+  "customManagers": [
+    {
+      "description": "Update npm packages within the dockerfile",
+      "customType": "regex",
+      "fileMatch": ["^Dockerfile$"],
+      "matchStrings": ["(?<depName>@\\S+)@(?<currentValue>\\S+)"],
+      "datasourceTemplate": "npm"
+    }
   ]
 }
