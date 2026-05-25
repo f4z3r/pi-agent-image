@@ -6,9 +6,14 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
-### <!-- 7 -->Miscellaneous Tasks
+### <!-- 7 -->Dependencies
+- Update all non-major dependencies by @renovate[bot] in [#12](https://github.com/f4z3r/pi-agent-image/pull/12)
+- Update dependency @earendil-works/pi-coding-agent to v0.75.4 by @renovate[bot] in [#13](https://github.com/f4z3r/pi-agent-image/pull/13)
+
+### <!-- 8 -->Miscellaneous Tasks
 - Add npm updates to setup by @f4z3r
 - Migrate config renovate.json by @renovate[bot] in [#14](https://github.com/f4z3r/pi-agent-image/pull/14)
+- Ensure dependency updates are present in the changelog by @f4z3r
 
 ## [0.2.1] - 2026-05-19
 
@@ -16,12 +21,24 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Update pi-coding-agent to version 0.75.3 by @f4z3r
 - Update archlinux base image to 20260517 by @f4z3r
 
+### <!-- 7 -->Dependencies
+- Update actions/checkout action to v6 by @renovate[bot] in [#6](https://github.com/f4z3r/pi-agent-image/pull/6)
+- Update docker/build-push-action action to v7 by @renovate[bot] in [#7](https://github.com/f4z3r/pi-agent-image/pull/7)
+- Update docker/login-action action to v4 by @renovate[bot] in [#8](https://github.com/f4z3r/pi-agent-image/pull/8)
+- Update docker/metadata-action action to v6 by @renovate[bot] in [#9](https://github.com/f4z3r/pi-agent-image/pull/9)
+- Update docker/setup-buildx-action action to v4 by @renovate[bot] in [#10](https://github.com/f4z3r/pi-agent-image/pull/10)
+- Update sigstore/cosign-installer action to v4 by @renovate[bot] in [#11](https://github.com/f4z3r/pi-agent-image/pull/11)
+
 ## [0.2.0] - 2026-05-13
 
 ### <!-- 0 -->Features
 - Allow internal user within container to run pacman by @f4z3r
 
-### <!-- 7 -->Miscellaneous Tasks
+### <!-- 7 -->Dependencies
+- Pin archlinux docker tag to 5ba8bb3 by @renovate[bot] in [#2](https://github.com/f4z3r/pi-agent-image/pull/2)
+- Update actions/checkout digest to 93cb6ef by @renovate[bot] in [#3](https://github.com/f4z3r/pi-agent-image/pull/3)
+
+### <!-- 8 -->Miscellaneous Tasks
 - "pin" versions for npm and cargo installs by @f4z3r
 - Add renovate.json by @renovate[bot] in [#1](https://github.com/f4z3r/pi-agent-image/pull/1)
 
@@ -36,7 +53,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### <!-- 3 -->Documentation
 - Update image reference in usage information by @f4z3r
 
-### <!-- 7 -->Miscellaneous Tasks
+### <!-- 8 -->Miscellaneous Tasks
 - Automatically generate changelogs by @f4z3r
 
 ### New Contributors
@@ -47,7 +64,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### <!-- 0 -->Features
 - Add nvim as default editor by @f4z3r
 
-### <!-- 7 -->Miscellaneous Tasks
+### <!-- 8 -->Miscellaneous Tasks
 - Initial commit by @f4z3r
 - Setup build pipeline for image by @f4z3r
 
