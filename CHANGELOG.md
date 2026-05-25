@@ -8,6 +8,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### <!-- 7 -->Miscellaneous Tasks
 - Add npm updates to setup by @f4z3r
+- Migrate config renovate.json by @renovate[bot] in [#14](https://github.com/f4z3r/pi-agent-image/pull/14)
 
 ## [0.2.1] - 2026-05-19
 
