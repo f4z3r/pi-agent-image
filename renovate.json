@@ -5,7 +5,9 @@
     {
       "description": "Update npm packages within the dockerfile",
       "customType": "regex",
-      "fileMatch": ["^Dockerfile$"],
+      "managerFilePatterns": [
+        "/^Dockerfile$/"
+      ],
       "matchStrings": ["(?<depName>@\\S+)@(?<currentValue>\\S+)"],
       "datasourceTemplate": "npm"
     }
