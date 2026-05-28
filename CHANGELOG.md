@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### <!-- 1 -->Bug Fixes
+- Add cargo bin path to PATH by @f4z3r
+
 ## [0.2.3] - 2026-05-28
 
 ### <!-- 7 -->Dependencies
@@ -76,6 +81,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### New Contributors
 * @f4z3r made their first contribution
 
+[unreleased]: https://github.com/f4z3r/pi-agent-image
 [0.2.3]: https://github.com/f4z3r/pi-agent-image/compare/v0.2.2...v0.2.3
 [0.2.2]: https://github.com/f4z3r/pi-agent-image/compare/v0.2.1...v0.2.2
 [0.2.1]: https://github.com/f4z3r/pi-agent-image/compare/v0.2.0...v0.2.1
