@@ -24,7 +24,8 @@ ENV EDITOR="nvim"
 
 RUN cargo install cbfmt@0.2.0;
 
-# Split from cargo install to re-use layer cache
+ENV PATH="$PATH:~/.cargo/bin"
+
 RUN mkdir -p /home/f4z3r/workspace/ \
     && mkdir -p /home/f4z3r/.config/nvim/;
 
