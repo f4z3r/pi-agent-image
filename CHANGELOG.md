@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### <!-- 7 -->Dependencies
+- Update dependency @earendil-works/pi-coding-agent to v0.75.5 by @renovate[bot] in [#15](https://github.com/f4z3r/pi-agent-image/pull/15)
+
 ## [0.2.2] - 2026-05-25
 
 ### <!-- 7 -->Dependencies
@@ -71,6 +76,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### New Contributors
 * @f4z3r made their first contribution
 
+[unreleased]: https://github.com/f4z3r/pi-agent-image
 [0.2.2]: https://github.com/f4z3r/pi-agent-image/compare/v0.2.1...v0.2.2
 [0.2.1]: https://github.com/f4z3r/pi-agent-image/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/f4z3r/pi-agent-image/compare/v0.1.0...v0.2.0
