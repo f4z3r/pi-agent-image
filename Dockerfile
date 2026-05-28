@@ -11,6 +11,7 @@ RUN pacman --noconfirm -Suy nodejs-lts-krypton npm \
       stylua \
       prettier \
       neovim \
+      mise \
     && npm install -g @earendil-works/pi-coding-agent@0.75.5 @wcj/html-to-markdown@2.1.1 \
     && groupadd -g 100 f4z3r \
     && useradd -u 1000 -g 100 -m f4z3r \
@@ -24,9 +25,11 @@ ENV EDITOR="nvim"
 
 RUN cargo install cbfmt@0.2.0;
 
-ENV PATH="$PATH:~/.cargo/bin"
+ENV PATH="$PATH:/home/f4z3r/.cargo/bin:/home/f4z3r/.local/bin"
 
-RUN mkdir -p /home/f4z3r/workspace/ \
+RUN mkdir -p /home/f4z3r/.local/share \
+    && mise settings trusted_config_paths="/" \
+    && mkdir -p /home/f4z3r/workspace/ \
     && mkdir -p /home/f4z3r/.config/nvim/;
 
 COPY --chown=f4z3r:f4z3r ./assets/init.lua /home/f4z3r/.config/nvim/init.lua

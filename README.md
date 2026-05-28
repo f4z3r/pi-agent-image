@@ -28,9 +28,13 @@ Note that the image has users and groups preconfigured so that it does not confl
 system. This might not work for you.
 
 ```bash
+# create a mise cache
+docker volume create mise-cache
+# run the docker container
 docker run --rm \
   -it \
   -e OPENROUTER_API_KEY -e BRAVE_API_KEY \
+  -v mise-cache:/home/f4z3r/.local/share/mise \
   -v ~/.pi:/home/f4z3r/.pi \
   -v ~/notes/resources/ai/:/home/f4z3r/notes/resources/ai \
   -v .:/home/f4z3r/workspace \
