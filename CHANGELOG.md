@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### <!-- 0 -->Features
+- Enable web-access pi extension by @f4z3r
+
 ## [0.3.0] - 2026-05-28
 
 ### <!-- 0 -->Features
@@ -86,6 +91,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### New Contributors
 * @f4z3r made their first contribution
 
+[unreleased]: https://github.com/f4z3r/pi-agent-image
 [0.3.0]: https://github.com/f4z3r/pi-agent-image/compare/v0.2.4...v0.3.0
 [0.2.4]: https://github.com/f4z3r/pi-agent-image/compare/v0.2.3...v0.2.4
 [0.2.3]: https://github.com/f4z3r/pi-agent-image/compare/v0.2.2...v0.2.3
