@@ -11,6 +11,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### <!-- 7 -->Dependencies
 - Update all non-major dependencies to v0.78.1 by @renovate[bot] in [#16](https://github.com/f4z3r/pi-agent-image/pull/16)
+- Update actions/checkout digest to df4cb1c by @renovate[bot] in [#17](https://github.com/f4z3r/pi-agent-image/pull/17)
 
 ## [0.3.0] - 2026-05-28
 
