@@ -9,6 +9,9 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### <!-- 0 -->Features
 - Enable web-access pi extension by @f4z3r
 
+### <!-- 7 -->Dependencies
+- Update all non-major dependencies to v0.78.1 by @renovate[bot] in [#16](https://github.com/f4z3r/pi-agent-image/pull/16)
+
 ## [0.3.0] - 2026-05-28
 
 ### <!-- 0 -->Features
