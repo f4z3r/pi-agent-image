@@ -23,8 +23,7 @@ USER 1000
 
 ENV EDITOR="nvim"
 
-RUN cargo install cbfmt@0.2.0 && \
-    pi install npm:pi-web-access;
+RUN cargo install cbfmt@0.2.0;
 
 ENV PATH="$PATH:/home/f4z3r/.cargo/bin:/home/f4z3r/.local/bin"
 
