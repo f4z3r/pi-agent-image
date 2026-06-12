@@ -12,7 +12,7 @@ RUN pacman --noconfirm -Suy nodejs-lts-krypton npm \
       prettier \
       neovim \
       mise \
-    && npm install -g @earendil-works/pi-coding-agent@0.78.1 @wcj/html-to-markdown@2.1.1 \
+    && npm install -g @earendil-works/pi-coding-agent@0.79.1 @wcj/html-to-markdown@2.1.1 \
     && groupadd -g 100 f4z3r \
     && useradd -u 1000 -g 100 -m f4z3r \
     && usermod -aG wheel f4z3r \
