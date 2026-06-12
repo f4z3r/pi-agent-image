@@ -42,6 +42,9 @@ docker run --rm \
   pi
 ```
 
+Note that since the container is expected to mount the `~/.pi` directory, we do not install
+extensions directly in the image as these would be overwritten by the mount.
+
 ## How to Build
 
 Images are released to the GitHub container registry. If want to build it locally nonetheless:
