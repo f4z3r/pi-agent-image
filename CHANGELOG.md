@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### <!-- 7 -->Dependencies
+- Update actions/checkout action to v7 by @renovate[bot] in [#19](https://github.com/f4z3r/pi-agent-image/pull/19)
+
 ## [0.5.0] - 2026-06-12
 
 ### <!-- 0 -->Features
@@ -103,6 +108,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### New Contributors
 * @f4z3r made their first contribution
 
+[unreleased]: https://github.com/f4z3r/pi-agent-image
 [0.5.0]: https://github.com/f4z3r/pi-agent-image/compare/v0.4.0...v0.5.0
 [0.4.0]: https://github.com/f4z3r/pi-agent-image/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/f4z3r/pi-agent-image/compare/v0.2.4...v0.3.0
