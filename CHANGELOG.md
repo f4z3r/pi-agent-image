@@ -8,6 +8,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### <!-- 7 -->Dependencies
 - Update actions/checkout action to v7 by @renovate[bot] in [#19](https://github.com/f4z3r/pi-agent-image/pull/19)
+- Update all non-major dependencies by @renovate[bot] in [#18](https://github.com/f4z3r/pi-agent-image/pull/18)
 
 ## [0.5.0] - 2026-06-12
 
