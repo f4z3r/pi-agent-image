@@ -8,6 +8,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### <!-- 7 -->Dependencies
 - Update all non-major dependencies by @renovate[bot] in [#21](https://github.com/f4z3r/pi-agent-image/pull/21)
+- Update dependency sigstore/cosign to v3 by @renovate[bot] in [#23](https://github.com/f4z3r/pi-agent-image/pull/23)
 
 ## [0.5.2] - 2026-06-30
 
