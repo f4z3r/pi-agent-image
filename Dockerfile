@@ -1,4 +1,4 @@
-FROM archlinux:base-20260517.0.530531@sha256:1047e6e7878d58e4ee47e1cd6459a32fab41246b0efc4109e11b7ef16f50b14d
+FROM archlinux:base-20260823.0.578598@sha256:b860afd5823683f7ea389ba5f00d812f4fe55f6f286dea329d2abeefa535e309
 
 RUN pacman --noconfirm -Suy nodejs-lts-krypton npm \
       sudo \
