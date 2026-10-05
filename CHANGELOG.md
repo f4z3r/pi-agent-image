@@ -10,6 +10,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Update all non-major dependencies by @renovate[bot] in [#25](https://github.com/f4z3r/pi-agent-image/pull/25)
 - Update orhun/git-cliff-action digest to a9a9552 by @renovate[bot] in [#26](https://github.com/f4z3r/pi-agent-image/pull/26)
 - Update dependency @earendil-works/pi-coding-agent to v1 by @renovate[bot] in [#27](https://github.com/f4z3r/pi-agent-image/pull/27)
+- Update archlinux to base-20260927.0.600689 by @f4z3r in [#28](https://github.com/f4z3r/pi-agent-image/pull/28)
 
 ## [0.5.4] - 2026-08-30
 
