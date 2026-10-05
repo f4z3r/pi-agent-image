@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### <!-- 7 -->Dependencies
+- Update all non-major dependencies by @renovate[bot] in [#25](https://github.com/f4z3r/pi-agent-image/pull/25)
+
 ## [0.5.4] - 2026-08-30
 
 ### <!-- 7 -->Dependencies
@@ -126,6 +131,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### New Contributors
 * @f4z3r made their first contribution
 
+[unreleased]: https://github.com/f4z3r/pi-agent-image
 [0.5.4]: https://github.com/f4z3r/pi-agent-image/compare/v0.5.3...v0.5.4
 [0.5.3]: https://github.com/f4z3r/pi-agent-image/compare/v0.5.2...v0.5.3
 [0.5.2]: https://github.com/f4z3r/pi-agent-image/compare/v0.5.1...v0.5.2
