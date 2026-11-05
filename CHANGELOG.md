@@ -8,6 +8,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### <!-- 7 -->Dependencies
 - Update all non-major dependencies by @renovate[bot] in [#29](https://github.com/f4z3r/pi-agent-image/pull/29)
+- Update all non-major dependencies by @renovate[bot] in [#30](https://github.com/f4z3r/pi-agent-image/pull/30)
 
 ## [0.6.0] - 2026-10-05
 
